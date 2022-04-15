@@ -11,8 +11,8 @@
 	<meta name="copyright" content="Howard Hsu">
 	<meta http-equiv="Content-Language" content="zh_TW">
 	<meta property="og:image" content="assets/images/slider1.jpg"/>
-	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 	  
       <!-- Google API -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,34 +27,47 @@
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
       <!-- 主要 CSS -->
-      <link href="assets/css/main.css" rel="stylesheet">
+      <link href="/assets/css/main.css" rel="stylesheet">
 	
 
     <title>淡江高中人文社會班 Tamkang High School | 深耕在地，放眼世界</title>
   </head>
   <body id="page-top">
-
     <!-- 導覽列 -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top ds-navbar" id="mainNav">
         <div class="container">
             <!-- 標誌 -->
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="/">
               <img src="assets/images/logo_2.png" width="200">
             </a>
             <!-- 文字 -->
             <a class="ds-menu-icon"></a>
-            <div class="ds-nav-wrapper">
-              <div class="collapse navbar-collapse">
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <!-- <div class="ds-nav-wrapper"> -->
+              <div class="collapse navbar-collapse" id="mainNavbar">
                   <ul class="navbar-nav ms-auto">
                       <li class="nav-item"><a class="nav-link" href="/#ds_about">班級介紹</a></li>
                       <li class="nav-item"><a class="nav-link" href="/#ds_class">課程規劃</a></li>
                       <li class="nav-item"><a class="nav-link" href="/#ds_release">動態專題</a></li>
-					  <li class="nav-item"><a class="nav-link" href="o-join">入學辦法</a></li>
+					  <li class="nav-item"><a class="nav-link" href="/o-join">入學辦法</a></li>
 					  <li class="nav-item"><a class="nav-link" href="https://library.extrastudio.tw/">線上展覽</a></li>
-                      <li class="nav-item"><a class="nav-link ds-contact-buton-nav" href="#ds_contact">聯絡我們</a></li>
+                      <!-- 常用連結 -->
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="fastlink" data-bs-toggle="dropdown" aria-expanded="false">常用連結</a>
+					  <ul class="dropdown-menu" aria-labelledby="fastlink">
+						<li><a class="dropdown-item" href="http://210.59.52.7/epfolio/">歷程檔案</a></li>
+						<li><a class="dropdown-item" href="http://210.59.52.7/classtable/">課表查詢</a></li>
+						<li><a class="dropdown-item" href="https://www.tksh.ntpc.edu.tw/nss/p/171">學期行事曆</a></li>
+						<li><a class="https://affair2.tksh.ntpc.edu.tw/wp/senior/" href="#">招生網站</a></li>
+					  </ul>
+					  <!-- 常用連結 -->
+					  </li>
+					  <li class="nav-item"><a class="nav-link ds-contact-buton-nav" href="/#ds_contact">聯絡我們</a></li>
                   </ul>
               </div>
-            </div>
+            <!-- </div> -->
         </div>
     </nav>
     <!-- 導覽列 -->
