@@ -10,3 +10,14 @@
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
+
+
+@media (max-width: 992px) {
+	.hide-on-phone{ display: none;}	
+}
+
+.header-img{
+	height: 650px;
+	margin-top: -15%;
+	overflow: hidden;
+}
